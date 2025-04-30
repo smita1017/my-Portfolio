@@ -1,5 +1,5 @@
 
-import { Route, Routes } from 'react-router-dom'
+import {BrowserRouter,Routes,Route } from 'react-router-dom'
 import './App.css'
 import Navigationbar from './Components/Navigationbar'
 import Home from './Pages/Home'
@@ -10,6 +10,7 @@ import Skills from './Pages/Skills'
 import Footer from './Components/Footer'
 import Certifications from './Pages/Certifications';
 import DynamicProjects from './Pages/Dynamicprojects'
+
 function App() {
 
   return (
@@ -20,7 +21,6 @@ function App() {
       <Route path='/aboutme' element={<Aboutme/>} />  
       <Route path='/projects' element={<Projects/>} />  
       <Route path='/DynamicProjects' element={<DynamicProjects/>} />  
-
       <Route path='/experiance' element={<Experiance/>} />  
       <Route path='/skills' element={<Skills/>} />  
       <Route path="/Certifications" element={<Certifications />} />
