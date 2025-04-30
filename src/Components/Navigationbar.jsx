@@ -13,7 +13,7 @@ const Navigationbar = () => {
             <li className='hover:bg-orange-500 p-1 rounded hover:text-white duration-150 ease-out'><Link to={"/skills"}>Skills</Link></li>
             <li className='hover:bg-orange-500 p-1 rounded hover:text-white duration-150 ease-out'><Link to={"/projects"}>Projects</Link></li>
             <li className='hover:bg-orange-500 p-1 rounded hover:text-white duration-150 ease-out'><Link to={"/experiance"}>Experiance</Link></li>
-            <li className='hover:bg-orange-500 p-1 rounded hover:text-white duration-150 ease-out'><Link to={"/DynamicProjects"}>DynamicProjects</Link></li>
+           
             
           
         </ul>
