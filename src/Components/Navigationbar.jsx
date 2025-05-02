@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import logo from '../assets/logo.png';
-import { Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react'; // Lucide icons for hamburger menu
-
+import React, { useState } from "react";
+import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
+import { Menu, X } from "lucide-react"; // Lucide icons for hamburger menu
+import handleDownloadCV from "../Pages/Handledownloadcv"; // Importing the download function
 const Navigationbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -11,12 +11,12 @@ const Navigationbar = () => {
   };
 
   const navLinks = [
-    { path: '/', label: 'Home' },
-    { path: '/aboutme', label: 'About Me!' },
-    { path: '/certifications', label: 'Certifications' },
-    { path: '/skills', label: 'Skills' },
-    { path: '/projects', label: 'Projects' },
-    { path: '/experience', label: 'Experience' }, // fixed typo
+    { path: "/", label: "Home" },
+    { path: "/aboutme", label: "About Me!" },
+    { path: "/certifications", label: "Certifications" },
+    { path: "/skills", label: "Skills" },
+    { path: "/projects", label: "Projects" },
+    { path: "/experience", label: "Experience" }, // fixed typo
   ];
 
   return (
@@ -25,8 +25,12 @@ const Navigationbar = () => {
         {/* Logo */}
         <div className="h-full flex items-center rounded-full bg-yellow-500">
           <div className="h-full flex items-center">
-          <img src={logo} alt="Company logo" className="h-full rounded-full" />
-        </div>
+            <img
+              src={logo}
+              alt="Company logo"
+              className="h-full rounded-full"
+            />
+          </div>
         </div>
 
         {/* Desktop Menu */}
@@ -43,10 +47,17 @@ const Navigationbar = () => {
 
         {/* Buttons - Desktop */}
         <div className="hidden md:flex gap-4">
-          <button className="px-3 py-1.5 bg-orange-500 rounded-lg text-white hover:bg-amber-500 hover:text-black transition">
+          <Link
+            to="/contact"
+            className="p-2 px-6 bg-orange-500 rounded-lg text-white hover:bg-amber-500 hover:text-black transition"
+          >
             Contact Me!
-          </button>
-          <button className="px-3 py-1.5 bg-orange-500 rounded-lg text-white hover:bg-amber-500 hover:text-black transition">
+          </Link>
+
+          <button
+            onClick={handleDownloadCV}
+            className="text-center px-6 bg-orange-500 rounded-lg text-white hover:bg-amber-500 hover:text-black transition"
+          >
             Download CV
           </button>
         </div>
@@ -75,10 +86,17 @@ const Navigationbar = () => {
             ))}
           </ul>
           <div className="mt-4 flex flex-col gap-3">
-            <button className="w-full px-3 py-2 bg-orange-500 rounded-lg text-white hover:bg-amber-500 hover:text-black transition">
+            <Link
+              to="/contact"
+              className="px-3 py-1.5 bg-orange-500 rounded-lg text-white hover:bg-amber-500 hover:text-black transition"
+            >
               Contact Me!
-            </button>
-            <button className="w-full px-3 py-2 bg-orange-500 rounded-lg text-white hover:bg-amber-500 hover:text-black transition">
+            </Link>
+
+            <button
+              onClick={handleDownloadCV}
+              className="w-full px-3 py-2 bg-orange-500 rounded-lg text-white hover:bg-amber-500 hover:text-black transition"
+            >
               Download CV
             </button>
           </div>

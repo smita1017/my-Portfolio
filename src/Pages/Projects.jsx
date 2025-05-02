@@ -15,7 +15,6 @@ const featuredProjects = [
   },
   {
     title: "Portfolio Website",
-    img: "/assets/projects/portfolio.png",
     img: "/assets/screenshots/portfolio.png",
     live: "https://smita1017.github.io/my-Portfolio/",
     description: "React + Tailwind portfolio with animations, routing, and custom styling.",

@@ -10,7 +10,7 @@ import Skills from './Pages/Skills'
 import Footer from './Components/Footer'
 import Certifications from './Pages/Certifications';
 import DynamicProjects from './Pages/Dynamicprojects'
-
+import Contact from './Pages/Contact'
 function App() {
 
   return (
@@ -24,7 +24,7 @@ function App() {
       <Route path='/experience' element={<Experience/>} />    
       <Route path='/skills' element={<Skills/>} />  
       <Route path="/Certifications" element={<Certifications />} />
-
+      <Route path="/contact" element={<Contact />} /> {/* ✅ This is required */}
     </Routes>
     <Footer/>
 

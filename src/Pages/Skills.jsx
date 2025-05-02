@@ -3,16 +3,16 @@ import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaNodeJs } from 'react-ico
 import { SiDotnet, SiMongodb, SiExpress, SiGithub } from 'react-icons/si';
 
 const skills = [
-  { name: 'React', icon: <FaReact />, level: 85 },
+  { name: 'React', icon: <FaReact />, level: 75 },
   { name: 'HTML', icon: <FaHtml5 />, level: 95 },
   { name: 'CSS', icon: <FaCss3Alt />, level: 90 },
   { name: 'JavaScript', icon: <FaJs />, level: 85 },
   { name: 'Git', icon: <FaGitAlt />, level: 80 },
-  { name: 'GitHub', icon: <SiGithub />, level: 80 },
-  { name: 'Dotnet', icon: <SiDotnet />, level: 80 },
-  { name: 'Node.js', icon: <FaNodeJs />, level: 80 },
-  { name: 'MongoDB', icon: <SiMongodb />, level: 80 },
-  { name: 'Express', icon: <SiExpress />, level: 80 }
+  { name: 'GitHub', icon: <SiGithub />, level: 78 },
+  { name: 'Dotnet', icon: <SiDotnet />, level: 60 },
+  { name: 'Node.js', icon: <FaNodeJs />, level: 65 },
+  { name: 'MongoDB', icon: <SiMongodb />, level: 63 },
+  { name: 'Express', icon: <SiExpress />, level: 70 }
 
 
 
