@@ -3,23 +3,21 @@ import { motion } from "framer-motion";
 const featuredProjects = [
   {
     title: "Mukund Gear Website",
-    img: "/assets/projects/mukund-gear.png",
-    github: "https://github.com/smita1017/Mohan-Gear-App",
+    img: "/assets/screenshots/Mohan-Gear-App.png", // ✅ Correct path
     live: "https://smita1017.github.io/Mohan-Gear-App/",
     description: "Responsive React website for gear manufacturing with Tailwind + Routing.",
   },
   {
     title: "Real Estate Website",
-    img: "/assets/projects/real-estate.png",
-    github: "https://github.com/smita1017/Real-Estate-App",
-    live: "#",
-    description: "Static listing platform upgrading to React with filters and CTA sections.",
+    img: "/assets/screenshots/Real-Estate-App.png",
+    live: "https://smita1017.github.io/Real-Estate-App/",
+    description: "Real estate website made with Html,css,javascript.",
   },
   {
     title: "Portfolio Website",
     img: "/assets/projects/portfolio.png",
-    github: "https://github.com/smita1017/portfolio",
-    live: "https://smita1017.github.io/portfolio",
+    img: "/assets/screenshots/portfolio.png",
+    live: "https://smita1017.github.io/my-Portfolio/",
     description: "React + Tailwind portfolio with animations, routing, and custom styling.",
   },
 ];
@@ -27,17 +25,17 @@ const featuredProjects = [
 const miniProjects = [
   {
     title: "To-Do List App",
-    github: "https://github.com/smita1017/todo-app",
+    live: "https://smita1017.github.io/my-Portfolio/",
     description: "Simple task manager built with React and localStorage.",
   },
   {
     title: "Tic-Tac-Toe Game",
-    github: "https://github.com/smita1017/tic-tac-toe",
+    live: "https://smita1017.github.io/my-Portfolio/",
     description: "Interactive game logic with reset and winner detection.",
   },
   {
     title: "E-commerce UI",
-    github: "https://github.com/smita1017/ecommerce-ui",
+    live: "https://smita1017.github.io/my-Portfolio/",
     description: "Product listing and cart design using Tailwind CSS.",
   },
 ];
@@ -45,7 +43,7 @@ const miniProjects = [
 const Projects = () => {
   return (
     <section className="py-16 px-4 bg-gray-50">
-      <h2 className="text-3xl font-bold text-center mb-10">My Projects</h2>
+      <h2 className="text-3xl font-bold text-center mb-5 mt-10">My Projects</h2>
 
       {/* Featured Projects Section */}
       <div className="max-w-6xl mx-auto mb-16">

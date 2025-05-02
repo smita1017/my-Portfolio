@@ -5,7 +5,7 @@ import Navigationbar from './Components/Navigationbar'
 import Home from './Pages/Home'
 import Aboutme from './Pages/Aboutme'
 import Projects from './Pages/Projects'
-import Experiance from './Pages/Experience'
+import Experience from './Pages/Experience'
 import Skills from './Pages/Skills'
 import Footer from './Components/Footer'
 import Certifications from './Pages/Certifications';
@@ -21,7 +21,7 @@ function App() {
       <Route path='/aboutme' element={<Aboutme/>} />  
       <Route path='/projects' element={<Projects/>} />  
       <Route path='/DynamicProjects' element={<DynamicProjects/>} />  
-      <Route path='/experiance' element={<Experiance/>} />  
+      <Route path='/experience' element={<Experience/>} />    
       <Route path='/skills' element={<Skills/>} />  
       <Route path="/Certifications" element={<Certifications />} />
 
