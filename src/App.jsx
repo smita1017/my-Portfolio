@@ -20,10 +20,10 @@ function App() {
       <Route path='/' element={<Home/>} />  
       <Route path='/aboutme' element={<Aboutme/>} />  
       <Route path='/projects' element={<Projects/>} />  
-      <Route path='/DynamicProjects' element={<DynamicProjects/>} />  
+      {/* <Route path='/DynamicProjects' element={<DynamicProjects/>} />   */}
       <Route path='/experience' element={<Experience/>} />    
       <Route path='/skills' element={<Skills/>} />  
-      <Route path="/Certifications" element={<Certifications />} />
+      <Route path="/certifications" element={<Certifications />} />
       <Route path="/contact" element={<Contact />} /> {/* ✅ This is required */}
     </Routes>
     <Footer/>

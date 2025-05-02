@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
-  basename: '/my-Portfolio/', // 👈 your repo name here
+  base: '/my-Portfolio/', // 🔥 This is crucial for GitHub Pages deployment
 
   plugins: [react(),tailwindcss()],
 })
