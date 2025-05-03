@@ -11,22 +11,19 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Simple validation
     if (!formData.name || !formData.email || !formData.message) {
       setResponseMsg("All fields are required.");
       return;
     }
 
     try {
-      const response = await fetch("http://localhost:5000/api/contact", {
+      const response = await fetch("http://localhost:5000/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
 
-      const result = await response.json();
-
-      if (result.success) {
+      if (response.ok) {
         setResponseMsg("✅ Message sent successfully!");
         setFormData({ name: "", email: "", message: "" });
       } else {
