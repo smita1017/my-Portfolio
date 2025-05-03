@@ -2,7 +2,7 @@ import React from 'react';
 import img from '../assets/logo.png';
 import facebook from '../assets/facebook.png';
 import instagram from '../assets/Instagram.png';
-import Linkedin from '../assets/Linkedin.png';//here is prbm while loaging to deploy stage
+import linkedin from '../assets/linkedin.png';//here is prbm while loaging to deploy stage
 import twitter from '../assets/Twitter.png';
 
 const Home = () => {
@@ -41,8 +41,8 @@ const Home = () => {
             <a href="#" aria-label="Twitter">
               <img src={twitter} alt="twitter" className="h-4.5 sm:h-4 hover:scale-110 transition-transform" />
             </a>
-            <a href="#" aria-label="Linkedin">
-              <img src={Linkedin} alt="Linkedin" className="h-4.5 sm:h-4 hover:scale-110 transition-transform" />
+            <a href="#" aria-label="linkedin">
+              <img src={linkedin} alt="linkedin" className="h-4.5 sm:h-4 hover:scale-110 transition-transform" />
             </a>
           </div>
         </section>
