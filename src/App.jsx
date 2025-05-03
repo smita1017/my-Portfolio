@@ -9,7 +9,7 @@ import Experience from './Pages/Experience'
 import Skills from './Pages/Skills'
 import Footer from './Components/Footer'
 import Certifications from './Pages/Certifications';
-// import DynamicProjects from './Pages/Dynamicprojects'
+// import DynamicProjects from './Pages/Dynamicprojects'//
 import Contact from './Pages/Contact'
 function App() {
 
