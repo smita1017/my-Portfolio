@@ -2,7 +2,7 @@ import React from 'react';
 import img from '../assets/logo.png';
 import facebook from '../assets/facebook.png';
 import instagram from '../assets/Instagram.png';
-import Linkedin from '../assets/Linkedin.png';
+import Linkedin from '../assets/LinkedIn.png';
 import twitter from '../assets/Twitter.png';
 
 const Home = () => {
