@@ -2,7 +2,7 @@ import React from 'react';
 import img from '../assets/logo.png';
 import facebook from '../assets/facebook.png';
 import instagram from '../assets/Instagram.png';
-import linkedin from '../assets/Linkedin.png';
+import social from '../assets/social.png';
 import twitter from '../assets/Twitter.png';
 
 const Home = () => {
@@ -64,8 +64,8 @@ const Home = () => {
             {/* <a href="#" aria-label="Twitter">
               <img src={twitter} alt="twitter" className="h-5 hover:scale-110 transition-transform" />
             </a> */}
-            <a href="www.linkedin.com/in/smita-patil-16900950" aria-label="LinkedIn">
-              <img src={linkedin} alt="Linkedin" className="h-5 hover:scale-110 transition-transform" />
+            <a href="www.social.com/in/smita-patil-16900950" aria-label="social">
+              <img src={social} alt="social" className="h-5 hover:scale-110 transition-transform" />
             </a>
           </div>
         </section>
