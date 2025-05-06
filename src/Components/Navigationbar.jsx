@@ -97,13 +97,13 @@ const Navigationbar = () => {
           ))}
           <Link
             to="/contact"
-            className="py-2 px-3 bg-orange-500 text-white rounded hover:bg-amber-500 transition"
+            className="py-2 px-3 bg-orange-500 text-white rounded hover:bg-amber-500 transition text-center"
           >
-            Contact
+            Contact me!
           </Link>
           <button
             onClick={handleDownloadCV}
-            className="py-2 px-3 bg-orange-500 text-white rounded hover:bg-amber-500 transition"
+            className="py-2 px-3 bg-orange-500 text-white rounded hover:bg-amber-500 transition text-center"
           >
             Download CV
           </button>
