@@ -31,7 +31,7 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <section className="py-16 px-4 bg-gray-50">
+    <section className="py-10 md:py-20 px-4 bg-gray-50">
       <h2 className="text-3xl font-bold text-center m-10">Education & Certifications</h2>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">

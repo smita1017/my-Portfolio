@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="pt-[20vh] max-w-lg mx-auto">
+    <div className="pt-20 pr-3 pl-3 md:pt-35 max-w-lg mx-auto">
       <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input

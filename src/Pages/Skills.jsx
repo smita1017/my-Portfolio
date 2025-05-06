@@ -13,16 +13,11 @@ const skills = [
   { name: 'Node.js', icon: <FaNodeJs />, level: 65 },
   { name: 'MongoDB', icon: <SiMongodb />, level: 63 },
   { name: 'Express', icon: <SiExpress />, level: 70 }
-
-
-
-
-
 ];
 
 const Skills = () => {
   return (
-    <section className="py-16 bg-white text-center mt-20">
+    <section className="py-13 bg-white text-center mt-20">
       <h2 className="text-3xl font-bold mb-8">My Skills</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-center px-4">
         {skills.map((skill, index) => (

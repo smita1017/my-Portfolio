@@ -24,7 +24,7 @@ const experience = [
   
   const Experience = () => {
     return (
-      <section className="py-16 px-4 bg-white">
+      <section className="py-10 md:py-16 px-4 bg-white">
         <h2 className="text-3xl font-bold text-center m-10">Professional Experience</h2>
         <div className="max-w-4xl mx-auto grid gap-10">
           {experience.map((job, index) => (

@@ -41,7 +41,7 @@ const miniProjects = [
 
 const Projects = () => {
   return (
-    <section className="py-16 px-4 bg-gray-50">
+    <section className="py-10 md:py-20 px-4 bg-gray-50">
       <h2 className="text-3xl font-bold text-center mb-5 mt-10">My Projects</h2>
 
       {/* Featured Projects Section */}
