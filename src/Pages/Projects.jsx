@@ -10,7 +10,7 @@ const featuredProjects = [
   {
     title: "Real Estate Website",
     img: "/my-Portfolio/assets/screenshots/Real-Estate-App.png",
-    live: "https://smita1017.github.io/Real-Estate-Project",
+    live: "https://smita1017.github.io/Real-Estate-Project/",
     description: "Real estate website made with Html,css,javascript.",
   },
   {
