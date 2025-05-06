@@ -1,5 +1,5 @@
 
-import {BrowserRouter,Routes,Route } from 'react-router-dom'
+import {Routes,Route } from 'react-router-dom'
 import './App.css'
 import Navigationbar from './Components/Navigationbar'
 import Home from './Pages/Home'
@@ -24,7 +24,7 @@ function App() {
       <Route path='/experience' element={<Experience/>} />    
       <Route path='/skills' element={<Skills/>} />  
       <Route path="/certifications" element={<Certifications />} />
-      <Route path="/contact" element={<Contact />} /> {/* ✅ This is required */}
+      <Route path="/contact" element={<Contact />} />
     </Routes>
     <Footer/>
 

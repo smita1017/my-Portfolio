@@ -64,7 +64,7 @@ const Home = () => {
             {/* <a href="#" aria-label="Twitter">
               <img src={twitter} alt="twitter" className="h-5 hover:scale-110 transition-transform" />
             </a> */}
-            <a href="www.social.com/in/smita-patil-16900950" aria-label="social">
+            <a href="https://www.linkedin.com/in/smita-patil-16900950/  " aria-label="social">
               <img src={social} alt="social" className="h-5 hover:scale-110 transition-transform" />
             </a>
           </div>
