@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript">
-      var path = location.pathname + location.search + location.hash;
-      location.replace('/my-Portfolio/' + path);
+    <script>
+      sessionStorage.redirect = location.href;
+      location.replace('/my-Portfolio/'); // Replace with your base URL
     </script>
   </head>
   <body></body>
