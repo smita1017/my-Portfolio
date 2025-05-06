@@ -55,16 +55,16 @@ const Home = () => {
 
           {/* Social Icons */}
           <div className="flex gap-5 sm:gap-6">
-            <a href="#" aria-label="Facebook">
+            <a href="https://www.facebook.com/smita1260/ " aria-label="Facebook">
               <img src={facebook} alt="facebook" className="h-5 hover:scale-110 transition-transform" />
             </a>
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.instagram.com/smita_thorat_patil/" aria-label="Instagram">
               <img src={instagram} alt="instagram" className="h-5 hover:scale-110 transition-transform" />
             </a>
-            <a href="#" aria-label="Twitter">
+            {/* <a href="#" aria-label="Twitter">
               <img src={twitter} alt="twitter" className="h-5 hover:scale-110 transition-transform" />
-            </a>
-            <a href="#" aria-label="LinkedIn">
+            </a> */}
+            <a href="www.linkedin.com/in/smita-patil-16900950" aria-label="LinkedIn">
               <img src={linkedin} alt="Linkedin" className="h-5 hover:scale-110 transition-transform" />
             </a>
           </div>
