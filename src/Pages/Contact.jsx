@@ -22,7 +22,7 @@ const Contact = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
-
+//new backend url added
       if (response.ok) {
         setResponseMsg("✅ Message sent successfully!");
         setFormData({ name: "", email: "", message: "" });
