@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 const featuredProjects = [
   {
     title: "Mukund Gear Website",
-    img: "/my-Portfolio/assets/screenshots/Mohan-Gear-App.png", // ✅ Correct path
+    img: "/assets/screenshots/Mohan-Gear-App.png", // ✅ Correct for Netlify
     live: "https://smita1017.github.io/Mohan-Gear-App/",
     description: "Responsive React website for gear manufacturing with Tailwind + Routing.",
   },
   {
     title: "Real Estate Website",
-    img: "/my-Portfolio/assets/screenshots/Real-Estate-App.png",
+    img: "/assets/screenshots/Real-Estate-App.png",
     live: "https://smita1017.github.io/Real-Estate-Project/",
     description: "Real estate website made with Html,css,javascript.",
   },
   {
     title: "Portfolio Website",
-    img: "/my-Portfolio/assets/screenshots/portfolio.png",
+    img: "/assets/screenshots/portfolio.png",
     live: "https://smita1017.github.io/my-Portfolio/",
     description: "React + Tailwind portfolio with animations, routing, and custom styling.",
   },
